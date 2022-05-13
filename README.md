@@ -34,6 +34,6 @@ In this project, we focus on the text-based Long-Range Arena tasks, namely Text 
 
 ## Baseline and Model Execution
 
-To reproduce the results in our paper, go to `/PIAYN_Pytorch/LRA` and follow the instructions in the README file to run the experiments for each of the models and tasks. 
+To reproduce the results in our paper, go to `/PIAYN_Pytorch/LRA` and follow the instructions in the README file to run the experiments for each of the models and tasks. To run on Greene, rename the `PIAYN_Pytorch` folder to `PIAYN` and place it in your `/scratch` folder. 
 
-Note: The path in the Dataloader in `run_tasks.py` in `/PIAYN_Pytorch/LRA/code` is set to `/PIAYN/LRA/datasets` and will have to be changed to `/PIAYN_Pytorch/LRA/datasets` for this repo. 
+
