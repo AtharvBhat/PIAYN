@@ -1,6 +1,8 @@
 
 ## LRA Benchmark Experiments
 
+Place the PIAYN_Pytorch folder into your scratch folder, and rename it PIAYN.
+
 Before running the tasks, one has to create the dataset files for each tasks following the instructions in the `data` folder, and add the files in the `/datasets/{task}` folder. 
 
 To run the LRA tasks, one would need
