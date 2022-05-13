@@ -27,3 +27,13 @@ ducted the experiments on Long Range Arena
 proposed by (Tay et al., 2020a) and observed
 that Perceiver performs well for long context
 tasks.
+
+## Data Generation and Train/Test/Val Splits
+
+In this project, we focus on the text-based Long-Range Arena tasks, namely Text Classification, Long ListOps and Byte-Level Document Retrieval. To generate the datasets for these tasks, go to `/data` and follow the instructions in the README file to generate the `.pickle` files. 
+
+## Baseline and Model Execution
+
+To reproduce the results in our paper, go to `/PIAYN_Pytorch/LRA` and follow the instructions in the README file to run the experiments for each of the models and tasks. 
+
+Note: The path in the Dataloader in `run_tasks.py` in `/PIAYN_Pytorch/LRA/code` is set to `/PIAYN/LRA/datasets` and will have to be changed to `/PIAYN_Pytorch/LRA/datasets` for this repo. 
